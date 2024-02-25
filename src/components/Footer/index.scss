@@ -1,0 +1,30 @@
+.footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  height: 15vh;
+  width: 100%;
+  align-self: flex-end;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 0;
+    gap: 1rem;
+    width: 100%;
+
+    li {
+      list-style: none;
+      cursor: pointer;
+      img {
+        max-width: 32px;
+        max-height: 87px;
+        object-fit: contain;
+      }
+    }
+  }
+}
