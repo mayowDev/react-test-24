@@ -22,8 +22,8 @@ const Chart = ({ data, height }: any) => {
               color: "black",
               fontSize: "14px",
               fontWeight: "600",
-              //   backgroundColor: "transparent",
-              //   border: "none",
+              // backgroundColor: "transparent",
+              border: "none",
             }}
             cursor={false}
             itemStyle={{

@@ -1,13 +1,15 @@
-import React from "react";
+import { useState } from "react";
 import ArrorLeft from "../../assets/arrow-left.svg";
-import DropDownIcon from "../../assets/menu-icon.svg";
 import "./styles.scss";
+import Menu from "../dropdownMenu";
 const Header = () => {
+  const [isOpen, toggleMenu] = useState(false);
+
   return (
     <header className="header">
       <img src={ArrorLeft} alt="arrow-left-back" />
       <h1>Bitcoin Wallet</h1>
-      <img src={DropDownIcon} alt="menu-dropdown" />
+      <Menu isOpen={isOpen} toggleMenu={toggleMenu} />
     </header>
   );
 };

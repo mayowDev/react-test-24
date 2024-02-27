@@ -61,6 +61,11 @@
   justify-content: space-evenly;
   list-style: none;
   padding: 0 0.5rem;
+  :hover {
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    transform: scale(1.25);
+  }
   li {
     cursor: pointer;
   }
@@ -70,6 +75,9 @@
     padding: 0 0.5rem;
     border-radius: 1rem;
   }
+  animation: fadeInAnimation ease-in-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .parent-container {
   background-color: white;
@@ -95,4 +103,7 @@
       font-weight: 600;
     }
   }
+  animation: fadeInAnimation ease-in-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
