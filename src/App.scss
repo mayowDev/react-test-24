@@ -1,15 +1,11 @@
 #root {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   max-width: 460px; //100vw
-  height: 650px; //100vh
+  height: 100vh;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   font-weight: normal;
   background-color: #f5f7fa;
-  // background: url("./assets//background_phone.png");
-  // background-repeat: no-repeat;
-  // background-size: 100% 100%;
 }

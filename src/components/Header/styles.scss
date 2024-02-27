@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  color: #4c5968;
+  h1 {
+    font-size: medium;
+  }
+  img {
+    max-width: 14px;
+    max-height: 28px;
+  }
+}

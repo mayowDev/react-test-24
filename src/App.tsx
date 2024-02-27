@@ -1,11 +1,14 @@
+import Header from "./components/Header";
+import HomePage from "./components/Home";
 import Footer from "./components/Footer";
-import BuySellBTC from "./components/BuySellBtc";
+
 import "./App.scss";
 
 function App() {
   return (
     <>
-      <BuySellBTC />
+      <Header />
+      <HomePage />
       <Footer />
     </>
   );

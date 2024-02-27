@@ -1,0 +1,98 @@
+.home {
+  max-height: 300px;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #4c5968;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem 0;
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .btc {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      span {
+        font-weight: 600;
+      }
+    }
+    p {
+      color: #aeb8c4;
+    }
+    img {
+      max-width: 15%;
+    }
+    button {
+      background: transparent;
+      border: none;
+      align-self: center;
+      cursor: pointer;
+      img {
+        height: 50px;
+      }
+    }
+  }
+  .money-changes {
+    span {
+      color: #aeb8c4;
+      font-weight: 600;
+    }
+    .changes {
+      background-color: #ee225d;
+      color: #fff;
+      padding: 0.25rem;
+      border-radius: 1rem;
+    }
+  }
+
+  .graph {
+    justify-content: center;
+  }
+}
+
+.graph-filter {
+  display: flex;
+  color: #aeb8c4;
+  font-weight: 600;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0 0.5rem;
+  li {
+    cursor: pointer;
+  }
+  .active {
+    color: #fff;
+    background-color: #aeb8c4;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+  }
+}
+.parent-container {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+.indicators-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  color: black;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    img {
+      width: 10%;
+    }
+    p {
+      color: #9a9bb0;
+      font-weight: 600;
+    }
+  }
+}

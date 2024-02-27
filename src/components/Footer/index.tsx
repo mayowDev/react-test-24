@@ -7,7 +7,7 @@ import "./index.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <ul className="icon-list">
         <li>
           <img src={wallet} className="logo" alt="wallet-logo" />
@@ -22,7 +22,7 @@ const Footer = () => {
           <img src={settings} className="logo" alt="settings-logo" />
         </li>
       </ul>
-    </div>
+    </footer>
   );
 };
 
