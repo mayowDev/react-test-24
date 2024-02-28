@@ -1,7 +1,7 @@
 import wallet from "../../assets/walleticon.svg";
-import explore from "../../assets/explore.svg";
-import settings from "../../assets/settings.svg";
-import notifications from "../../assets/notification.svg";
+import explore from "../../assets/exploreicon.svg";
+import settings from "../../assets/settingsicon.svg";
+import notifications from "../../assets/notificationicon.svg";
 import "./index.scss";
 
 const Footer = () => {
