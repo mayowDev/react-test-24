@@ -5,10 +5,27 @@ import ShareIcon from "../../assets/share-up-icon.svg";
 import RemoveIcon from "../../assets/remove-icon.svg";
 
 import "./style.scss";
+import { useEffect, useRef } from "react";
 
 const Menu = ({ isOpen, toggleMenu }: any) => {
+  const ref: any = useRef(null);
+
+  useEffect(() => {
+    const handleOutSideClick = (event: any) => {
+      if (isOpen && !ref.current?.contains(event.target)) {
+        toggleMenu(!isOpen);
+      }
+    };
+
+    window.addEventListener("mousedown", handleOutSideClick);
+
+    return () => {
+      window.removeEventListener("mousedown", handleOutSideClick);
+    };
+  }, [ref, isOpen]);
+
   return (
-    <div className="container">
+    <div className="container" ref={ref}>
       <img
         className="mobile-menu-button"
         onClick={() => toggleMenu(!isOpen)}
