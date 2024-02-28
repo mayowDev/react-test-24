@@ -1,4 +1,3 @@
-import React from "react";
 import wallet from "../../assets/WALLET.svg";
 import explore from "../../assets/EXPLORE.svg";
 import settings from "../../assets/SETTINGS.svg";
