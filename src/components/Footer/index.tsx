@@ -1,4 +1,4 @@
-import wallet from "../../assets/wallet.svg";
+import wallet from "../../assets/walleticon.svg";
 import explore from "../../assets/explore.svg";
 import settings from "../../assets/settings.svg";
 import notifications from "../../assets/notification.svg";
