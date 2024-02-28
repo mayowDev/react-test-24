@@ -1,7 +1,7 @@
-import wallet from "../../assets/WALLET.svg";
-import explore from "../../assets/EXPLORE.svg";
-import settings from "../../assets/SETTINGS.svg";
-import notifications from "../../assets/NOTIFICATION.svg";
+import wallet from "../../assets/wallet.svg";
+import explore from "../../assets/explore.svg";
+import settings from "../../assets/settings.svg";
+import notifications from "../../assets/notification.svg";
 import "./index.scss";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
           <img src={wallet} className="logo" alt="wallet-logo" />
         </li>
         <li>
-          <img src={explore} className="logo" alt="notifications-logo" />
+          <img src={explore} className="logo" alt="explore-logo" />
         </li>
         <li>
           <img src={notifications} className="logo" alt="notifications-logo" />

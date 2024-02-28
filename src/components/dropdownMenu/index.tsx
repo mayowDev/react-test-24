@@ -1,8 +1,8 @@
-import DropDownIcon from "../../assets/menu-icon.svg";
-import EditIcon from "../../assets/edit-icon.svg";
-import InfoIcon from "../../assets/info-icon.svg";
-import ShareIcon from "../../assets/share-up-icon.svg";
-import RemoveIcon from "../../assets/remove-icon.svg";
+import DropDownIcon from "../../assets/menuicon.svg";
+import EditIcon from "../../assets/editicon.svg";
+import InfoIcon from "../../assets/infoicon.svg";
+import ShareIcon from "../../assets/share.svg";
+import RemoveIcon from "../../assets/removeicon.svg";
 
 import "./style.scss";
 import { useEffect, useRef } from "react";

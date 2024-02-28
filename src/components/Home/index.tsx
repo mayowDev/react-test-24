@@ -1,9 +1,9 @@
 import { useState } from "react";
-import BTCIcon from "../../assets/btc-icon.svg";
-import ArrowDown from "../../assets/arrow-down.svg";
-import HighestPriceIcon from "../../assets/green-circle.svg";
-import LowestPriceIcon from "../../assets/red-circle.svg";
-import ArrowUp from "../../assets/arrow-up.svg";
+import BTCIcon from "../../assets/btcicon.svg";
+import arrowdown from "../../assets/arrowdown.svg";
+import HighestPriceIcon from "../../assets/greencircle.svg";
+import LowestPriceIcon from "../../assets/redcircle.svg";
+import ArrowUp from "../../assets/arrowup.svg";
 import Chart from "../Chart";
 import BuySellBTC from "../BuySellBtc";
 import Card from "../Card";
@@ -89,7 +89,7 @@ const Home = () => {
         </div>
         <div className="row graph">
           <button onClick={handleGraphVisibility}>
-            <img src={showGraph ? ArrowUp : ArrowDown} alt="" />
+            <img src={showGraph ? ArrowUp : arrowdown} alt="" />
           </button>
         </div>
       </section>

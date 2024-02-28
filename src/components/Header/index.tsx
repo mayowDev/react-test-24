@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ArrorLeft from "../../assets/arrow-left.svg";
+import ArrorLeft from "../../assets/arrowleft.svg";
 import "./styles.scss";
 import Menu from "../dropdownMenu";
 const Header = () => {

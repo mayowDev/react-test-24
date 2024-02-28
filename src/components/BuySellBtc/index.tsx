@@ -1,6 +1,6 @@
 import Card from "../Card";
-import BuyBtcIcon from "../../assets/buy-btc-icon.svg";
-import SellBtc from "../../assets/sell-btc.svg";
+import BuyBtcIcon from "../../assets/buybtc.svg";
+import SellBtc from "../../assets/sellbtc.svg";
 import "./style.scss";
 
 const BuySellBTC = () => {
